@@ -61,5 +61,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem "awesome_print" #ap 
-gem "table_print" #tp 
+gem "awesome_print" #use ap 
+gem "table_print" #use tp 
+gem 'faker', '~> 1.9', '>= 1.9.3' #generates fake data 
