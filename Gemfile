@@ -64,3 +64,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "awesome_print" #use ap 
 gem "table_print" #use tp 
 gem 'faker', '~> 1.9', '>= 1.9.3' #generates fake data 
+gem 'materialize-sass', '~> 1.0' #adds scss and css capability 

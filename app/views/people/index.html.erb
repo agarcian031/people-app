@@ -1,9 +1,16 @@
-<h1>People</h1>
+<h1>The Company</h1>
 <hr>
-<%= link_to 'New Person', new_person_path %>
+<%= link_to 'New Person', new_person_path, class:'btn teal lighten-2 black-text hoverable' %>
 <% @people.each do |person|%>
+<div class='#b0bec5 blue-grey lighten-3 black-text'>
 <h2> <%= person.full_name %> </h2>
-<%= link_to 'Show Person', person_path(person)%>
-<%= link_to 'Edit Person', edit_person_path(person)%>
-<%= link_to 'Delete Person', person, method: :delete %>
+
+<nav class='#b0bec5 blue-grey lighten-4 black-text'>
+  <div>
+    <%= link_to 'Show Person', person_path(person), class:'btn teal lighten-2 white-text hoverable'%>
+    <%= link_to 'Edit Person', edit_person_path(person), class:'btn teal lighten-2 white-text hoverable'%>
+    <%= link_to 'Delete Person', person, method: :delete, class:'btn teal lighten-2 white-text hoverable' %>
+ </div>
+</nav>
+</div>
 <% end %>

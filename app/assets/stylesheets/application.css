@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+ @import "materialize";
+ @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,600,700');
+
+ * {
+   font-family: Comfortaa, Ariel, sans-serif; 
+   font-weight: bold; 
+ }
+
+
+div {
+  display: block;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+.card-panel {
+  display: block;
+}
